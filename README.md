@@ -1,2 +1,2 @@
 # MicroRabbit
-Microservice with RabbitMQ
+Banking Microservice with RabbitMQ and .NET8

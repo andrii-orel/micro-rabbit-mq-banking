@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace MicroRabbit.Domain.Core.Events
+﻿namespace MicroRabbit.Domain.Core.Events
 {
     public abstract class Event
     {
@@ -8,7 +6,7 @@ namespace MicroRabbit.Domain.Core.Events
 
         protected Event()
         {
-            Timestamp = DateTime.UtcNow;
+            Timestamp = DateTime.Now;
         }
     }
 }

@@ -1,5 +1,4 @@
-﻿using System;
-using MicroRabbit.Domain.Core.Events;
+﻿using MicroRabbit.Domain.Core.Events;
 
 namespace MicroRabbit.Domain.Core.Commands
 {
@@ -9,7 +8,7 @@ namespace MicroRabbit.Domain.Core.Commands
 
         protected Command()
         {
-            Timestamp = DateTime.UtcNow;
+            Timestamp = DateTime.Now;
         }
     }
 }
